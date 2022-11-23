@@ -1,3 +1,95 @@
-h1
-    font-family: 'Tinos', sans-serif
-    font-weight: 400
+.header
+    display: flex
+    padding-top: 50px
+    align-items: center
+    vertical-align: middle
+    a 
+        list-style-type: none
+        text-decoration: none
+        color: #fff
+        font-family: 'Open Sans'
+        font-weight: Bold
+        font-size: 14px
+        line-height: 19px
+        text-transform: uppercase
+    &__logo
+        margin-right: 260px
+
+.nav 
+    a
+        margin-right: 20px
+
+.basket
+    position: relative
+    margin-left: 10px
+    margin-right: 50px
+    &::before
+        position: absolute
+        top: -20px
+        left: 35px
+        content: ''
+        height: 60px
+        width: 1px
+        background-color: #fff
+
+.call
+    margin-right: 60px
+    a
+        font-family: 'Open Sans'
+        font-weight: Bold
+        font-size: 18px
+        line-height: 25px
+
+    p
+        color: #fff
+        width: 155px
+        font-family: 'Open Sans'
+        font-weight: 400
+        font-size: 14px
+        line-height: 19px
+    .wrapper
+        display: flex
+    .phone
+        margin-right: 8px
+    
+.promo
+    background: url(../img/promobg.png) no-repeat 50%/cover
+    min-height: 100vh
+    &__title
+        margin-top: 150px
+        text-align: center
+        width: 600px
+        font-family: 'Tinos'
+        font-style: normal
+        font-weight: 400
+        font-size: 75px
+        line-height: 82px
+        color: #D67E35
+    &__subtitle
+        position: relative
+        margin-top: 12px
+        width: 600px
+        text-align: center
+        font-family: 'Open Sans'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 25px
+        color: #fff
+        text-transform: uppercase
+        &::after
+            position: absolute
+            left: 400px
+            top: 12px
+            content: ''
+            height: 2px
+            width: 61px
+            background-color: #fff
+        &::before
+            position: absolute
+            left: 135px
+            top: 11px
+            content: ''
+            height: 2px
+            width: 61px
+            background-color: #fff
